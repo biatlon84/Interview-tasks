@@ -68,4 +68,14 @@ public class Main {
 			}
 		}
 	}
+
+	public static void test(String[] args) {
+		int n = 100;
+		int m = 100;
+		System.out.println(n + " " + m);
+
+		for (int i = 0; i < n; i++) {
+			System.out.printf("%d\n", (int) (Math.random() * 100000000));
+		}
+	}
 }
